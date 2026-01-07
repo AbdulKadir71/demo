@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+nav{
+    width: 1600px;
+    height: 100px;
+    background-color: #f5f5f5;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 160px;
+}
+.logo .btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    cursor: pointer;
+}
+#hero{
+    width: 1280px;
+    height: 560px;
+    background: rgba(198, 228, 214, 1);
+    margin: 20px 160px 0;
+    border-radius: 24px;
+}
+#hero .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+#hero .hero-content h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+#hero .hero-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+}
+#hero .hero-content button{
+    padding: 17px 34px;
+    background-color: rgba(0, 106, 80, 1);
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    border: none;
+}
+#Pillars{
+    width: 1280px;
+    height: 324px;
+    margin: 80px 160px;
+}
+#Pillars h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 32px;
+}
+.Pillars-container{
+    display: flex;
+    justify-content: space-between;
+}
+.Pillars-container .card-title{
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+.card-title img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+.card-title h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.card-title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 12px;
+}
+#vision{
+    width: 1280px;
+    height: 765px;
+    margin: 80px 160px;
+}
+#vision h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+#vision .txt{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.card-container{
+    width: 1280px;
+    height: 325px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    
+}
+.card-content{
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+    padding: 32px;
+}
+.color{
+    background-color:rgba(84, 144, 245, 0.2);
+}
+.color2{
+    background: rgba(198, 228, 214, 1);
+}
+.color3{
+    background: rgba(247, 235, 207, 1);
+}
+.card-info img{
+    height: 64px;
+    width: 64px;
+}
+.card-info h5{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.card-info p{
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card-info .btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+.btncolor{
+    background: rgba(84, 144, 245, 1);
+}
+.btncolor2{
+    background: rgba(9, 161, 92, 1);
+}
+.btncolor3{
+    background: rgba(255, 194, 57, 1);
+}
+.text-box{
+    width: 1280px;
+    height: 256px;
+    padding: 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    align-items: center;
+}
+.text-box .text{
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.text-box h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+.text-box p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
